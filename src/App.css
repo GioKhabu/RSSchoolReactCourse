@@ -46,3 +46,17 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.about-us {
+  align-self: flex-start;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.about-us:hover {
+  color: rgb(17, 77, 57);
+}
