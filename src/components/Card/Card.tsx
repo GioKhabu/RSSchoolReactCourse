@@ -9,7 +9,8 @@ interface Location {
   name: string;
   url: string;
 }
-interface Item {
+
+interface myProps {
   id: number;
   name: string;
   status: string;
@@ -23,11 +24,8 @@ interface Item {
   created: string;
 }
 
-
-class Card extends React.PureComponent<Item> {
-    values = Object.entries(this.props)
+class Card extends React.PureComponent<myProps> {
   render() {
-    console.log(this.values)
     return (
       <article>
         <div className="article-wrapper">
